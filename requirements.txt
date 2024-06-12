@@ -1,8 +1,10 @@
-
+cohere
+requests
 numpy
-pandas
-Flask
-SQLAlchemy
-scikit-learn
-gunicorn
+cv2
+matplotlib
+prodiapy
+io
+flask
+sqlalchemy
 
