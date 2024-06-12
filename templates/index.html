@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Form</title>
+</head>
+<body>
+    <h1>Enter the details for prediction</h1>
+    <form action="/predict" method="post">
+        <label for="cylinders">Cylinders:</label>
+        <input type="text" id="cylinders" name="cylinders"><br><br>
+
+        <label for="displacement">Displacement:</label>
+        <input type="text" id="displacement" name="displacement"><br><br>
+
+        <label for="horsepower">Horsepower:</label>
+        <input type="text" id="horsepower" name="horsepower"><br><br>
+
+        <label for="weight">Weight:</label>
+        <input type="text" id="weight" name="weight"><br><br>
+
+        <label for="acceleration">Acceleration:</label>
+        <input type="text" id="acceleration" name="acceleration"><br><br>
+
+        <label for="model_year">Model Year:</label>
+        <input type="text" id="model_year" name="model_year"><br><br>
+
+        <label for="origin">Origin:</label>
+        <input type="text" id="origin" name="origin"><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
